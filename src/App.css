@@ -1,0 +1,56 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ScoreBoard,
+.cards,
+.Card {
+  border-radius: 20px;
+}
+
+.ScoreBoard {
+  background-color: rgb(140, 202, 205);
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.cards {
+  /* background-color: rgb(57, 37, 100); */
+  /* padding: 1rem; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.Card {
+  background-color: rgb(247, 246, 240);
+  border: 0.8rem solid rgb(245, 192, 70);
+  padding: 0;
+
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+
+  width: 240px;
+  height: 290px;
+}
+
+.Card:hover,
+.Card:focus {
+  background-color: rgb(145, 136, 198);
+}
+
+.Card p {
+  color: rgb(70, 16, 0);
+  font-size: 1.6rem;
+  margin-top: -0.4rem;
+}
